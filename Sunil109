@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in page</title>
+    <style>
+        body{
+           
+        }
+        .form{
+            border: 2px solid rgb(7, 226, 215);
+            width: 400px;
+            height: 400px;
+            margin-left: 36%;
+            border-radius: 12px;
+          
+        }
+        .form label{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            padding: 10px;
+            font-weight: bold;
+
+        }
+        .form input{
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 160px;
+            padding-left: 30px;
+            height: 20px;
+
+        }
+        ::placeholder{
+            color: rgb(25, 228, 228);
+        }
+        .left{
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+button{
+    margin-left: 20px;
+    color: rgb(20, 63, 77);
+    background-color: rgb(26, 207, 231);
+    border-radius: 5px;
+    margin-top: 10px ;
+    height: 30px;
+    width: 100px;
+}
+h1{
+    margin-left: 45%;
+}
+    </style>
+</head>
+<body>
+    <h1 class="head">Login page</h1>
+    <div class="form">
+        <div class="left">
+        <label for="name">Name</label><br><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label for="e-mail">E-mail</label><br><br>
+        <input type="email" placeholder="Enter your e-mail"><br><br>
+
+        <label for="contact no.">Number</label><br><br>
+        <input type="tel" placeholder="Enter your  phone no."><br><br>
+
+        <label for="password">Password</label><br><br>
+        <input type="text" placeholder="password"><br><br>
+    </div>
+        
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
